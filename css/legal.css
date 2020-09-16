@@ -1,0 +1,891 @@
+@media (min-width: 800px) and (max-width: 1100px) {
+  .contacts-wrapper {
+    width: 100% !important;
+    justify-content: space-around !important; }
+  .contact-logo img {
+    width: 81px !important; }
+  .contact-info {
+    font-size: 14px !important; }
+  .contacts-details .contact-logo-info {
+    margin: 0 !important; } }
+
+@media (max-width: 1000px) {
+  .legal-items-container {
+    flex-wrap: wrap !important; }
+  .legal-item.big {
+    max-width: unset !important;
+    margin-bottom: 30px !important;
+    margin-right: 0 !important; }
+  .legal-line {
+    width: 100% !important; } }
+
+@media (max-width: 900px) {
+  .legal-items-container {
+    flex-direction: column !important; } }
+
+@media (min-width: 700px) and (max-width: 1100px) {
+  .news-content {
+    width: 92% !important; } }
+
+@media (min-width: 700px) and (max-width: 900px) {
+  .top-content .box {
+    height: 100px; }
+  .top-content img {
+    height: 100% !important;
+    width: 65px !important; } }
+
+@media (max-width: 700px) {
+  .top-content .box {
+    max-width: unset !important;
+    width: 57% !important;
+    margin-bottom: 30px;
+    height: 100px; }
+  .top-content {
+    flex-wrap: wrap;
+    justify-content: center; }
+  .top-content img {
+    width: 64px !important;
+    height: 100% !important; }
+  .image-wrapp {
+    display: flex;
+    justify-content: flex-end; } }
+
+@media (max-width: 600px) {
+  .news-info {
+    width: 90% !important; }
+  .legal-small-title {
+    text-align: center !important; }
+  .legal-bigItem-title {
+    text-align: center !important; }
+  .legal-content {
+    width: 87% !important; }
+  .legal-big-title {
+    margin-bottom: 27px !important;
+    font-size: 30px !important;
+    text-align: center !important; } }
+
+@media (min-width: 538px) and (max-width: 700px) {
+  .news-content {
+    width: 85% !important; } }
+
+@media (max-width: 500px) {
+  .top {
+    margin-bottom: 30px !important; }
+  .contact-info {
+    line-height: unset !important; }
+  .contact-logo {
+    margin-bottom: 22px !important; }
+  .contact-info p {
+    margin-bottom: 10px !important; }
+  .contact-link {
+    font-size: 13px !important;
+    margin: auto !important; }
+  .top-content .box {
+    width: 80% !important; }
+  .legal-questions {
+    margin-bottom: 20px !important; }
+  .legal-item.big {
+    margin-bottom: 10px !important; }
+  .modal-header {
+    padding: 50px 0 !important; }
+  .modal {
+    padding-top: 0 !important; }
+  .modal-content {
+    margin: 0 !important; }
+  .modal-btn button {
+    padding: 25px 0 23px 0 !important;
+    max-width: 271px !important;
+    width: 100% !important; }
+  .modal-close {
+    display: block !important;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 30px; }
+  .news-content-title p {
+    text-align: center !important; } }
+
+@media (min-width: 490px) and (max-width: 670px) {
+  .phone-nav a {
+    font-size: 22px !important; }
+  .phone-nav li {
+    padding: 3px !important; } }
+
+@media (max-width: 450px) {
+  .legal-big-title {
+    font-size: 21px !important; }
+  .legal-bigItem-title {
+    font-size: 17px !important;
+    line-height: 1.5 !important; } }
+
+@media (min-width: 320px) and (max-width: 537px) {
+  .news-content {
+    width: 80% !important; } }
+
+@media (min-width: 320px) and (max-width: 490px) {
+  .phone-nav a {
+    font-size: 19px !important; }
+  .phone-nav li {
+    padding: 3px !important; } }
+
+@media (min-width: 320px) and (max-width: 800px) {
+  .contacts-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 95% !important; }
+  .contacts-wrapper {
+    flex-direction: column !important;
+    justify-content: center !important; }
+  .contact-logo {
+    margin-right: 0 !important;
+    text-align: center !important; }
+  .contact-logo-info {
+    margin-right: 0 !important;
+    display: flex;
+    flex-direction: column !important;
+    align-items: initial !important; }
+  .contact-phone .phone-number span {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    line-height: 30px !important; }
+  .contact-phone .phone-number {
+    margin-bottom: 30px !important;
+    line-height: unset !important; }
+  .contact-phone .phone-title {
+    line-height: 37px !important; } }
+
+@media (min-width: 320px) and (max-width: 1100px) {
+  .hamburger-menu {
+    display: block !important; }
+  .desktop-nav {
+    display: none !important; }
+  .phone-info {
+    display: none !important; }
+  .phone-nav {
+    margin-bottom: 20px; }
+    .phone-nav li {
+      list-style: none;
+      padding: 8px; }
+    .phone-nav a {
+      text-decoration: none;
+      font-weight: 400;
+      color: #000000;
+      font-family: 'Myriad Pro',sans-serif;
+      font-size: 28px;
+      text-transform: uppercase; }
+  .mobile-info .phone {
+    margin-bottom: 14px;
+    color: rgba(18, 18, 18, 0.53);
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 10.08px; }
+  .header-container {
+    width: 80% !important;
+    margin: 0 auto !important; } }
+
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url("../fonts/MyriadPro-SemiboldCond.eot");
+  src: url("../fonts/MyriadPro-SemiboldCond.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro-SemiboldCond.woff2") format("woff2"), url("../fonts/MyriadPro-SemiboldCond.woff") format("woff"), url("../fonts/MyriadPro-SemiboldCond.ttf") format("truetype"), url("../fonts/MyriadPro-SemiboldCond.svg#MyriadPro-SemiboldCond") format("svg");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url("../fonts/MyriadPro-Bold.eot");
+  src: url("../fonts/MyriadPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro-Bold.woff2") format("woff2"), url("../fonts/MyriadPro-Bold.woff") format("woff"), url("../fonts/MyriadPro-Bold.ttf") format("truetype"), url("../fonts/MyriadPro-Bold.svg#MyriadPro-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+/*general*/
+* {
+  margin: 0;
+  padding: 0; }
+
+.main-wrapper {
+  width: 100%;
+  margin: 0 auto; }
+
+.bu {
+  background: #b6c930 !important;
+  color: white !important; }
+
+.active {
+  transform: rotate(180deg) !important; }
+
+.body-active {
+  overflow: hidden; }
+
+/*general-end*/
+/*header*/
+header {
+  width: 100%;
+  height: 160px;
+  background: url("../images/original.png");
+  background-size: 82%;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-position-x: 128%;
+  background-position-y: 43%;
+  padding-bottom: 8px; }
+  header .header-container {
+    position: relative;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1125px;
+    margin: 0 auto;
+    height: 100%;
+    width: 97%; }
+  header .desktop-nav .main-nav {
+    display: flex; }
+  header .desktop-nav li {
+    list-style: none;
+    padding: 8px; }
+  header .desktop-nav a {
+    text-decoration: none;
+    font-weight: 400;
+    color: #000000;
+    font-family: 'Myriad Pro',sans-serif;
+    font-size: 14px;
+    line-height: 37px;
+    text-transform: uppercase; }
+  header .phone {
+    padding-bottom: 5px;
+    color: rgba(18, 18, 18, 0.53);
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 10.08px; }
+  header .phone-number {
+    color: #000000;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 32.55px; }
+  header .mobile-version {
+    display: none; }
+  header .mobile-version.open {
+    position: fixed;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column;
+    text-align: center !important;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(#FFFFF0, #FFFAFA, #FFFAF0);
+    font-size: 40px;
+    padding: 30px !important;
+    box-sizing: border-box;
+    z-index: 90000;
+    height: 100vh; }
+  header .mobile-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 35px;
+    color: #000000; }
+  header .hamburger-menu {
+    display: none; }
+  header .hamburger-menu-line {
+    height: 3px;
+    width: 40px;
+    background: #000000;
+    display: block;
+    margin: 5px 0;
+    transition: all 0.8s; }
+  header .hamburger-menu.open {
+    position: fixed; }
+  header .hamburger-menu.open .hamburger-menu-line:first-child {
+    transform: translate(0, 7px) rotate(45deg); }
+  header .hamburger-menu.open .hamburger-menu-line:nth-child(2) {
+    display: none; }
+  header .hamburger-menu.open .hamburger-menu-line:last-child {
+    transform: rotate(-45deg); }
+
+/*header-end*/
+/*main*/
+/*top*/
+.top {
+  width: 100%;
+  margin-bottom: 80px; }
+
+.box a {
+  text-decoration: none; }
+
+.top-content {
+  max-width: 1125px;
+  margin: 0 auto;
+  display: flex;
+  width: 97%; }
+
+.orange-online {
+  max-width: 33%;
+  width: 375px;
+  height: 147px;
+  box-shadow: 3px 7px 40px 1px rgba(0, 1, 5, 0.31);
+  background-color: #e3a416;
+  display: flex;
+  justify-content: space-between; }
+
+.online-services {
+  padding-left: 36px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-family: "Myriad Pro",sans-serif;
+  font-size: 18px;
+  line-height: 37px;
+  text-transform: uppercase; }
+
+.online-image img {
+  width: 106px;
+  height: 147px; }
+
+.blue-contacts {
+  max-width: 33%;
+  width: 375px;
+  height: 147px;
+  background-color: #b2d8f6;
+  display: flex;
+  justify-content: space-between; }
+
+.contacts {
+  padding-left: 36px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-family: "Myriad Pro",sans-serif;
+  font-size: 18px;
+  line-height: 37px;
+  text-transform: uppercase; }
+
+.green-application {
+  max-width: 33%;
+  width: 375px;
+  height: 147px;
+  background-color: #b6c930;
+  display: flex;
+  justify-content: space-between; }
+
+.application {
+  padding-left: 36px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-family: "Myriad Pro",sans-serif;
+  font-size: 18px;
+  line-height: 37px;
+  text-transform: uppercase; }
+
+/*top-end*/
+/*legal*/
+.legal {
+  width: 100%;
+  margin-bottom: 50px; }
+  .legal .legal-content {
+    width: 97%;
+    max-width: 1125px;
+    margin: 0 auto; }
+  .legal .legal-small-title {
+    margin-bottom: 29px; }
+  .legal .legal-small-title a {
+    opacity: 0.55;
+    color: #000000;
+    font-family: 'Myriad Pro',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0.35px;
+    text-decoration: none; }
+  .legal .legal-big-title {
+    margin-bottom: 73px;
+    color: #000000;
+    font-family: 'Myriad Pro',sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 37px;
+    text-transform: uppercase; }
+  .legal .legal-items-container {
+    display: flex;
+    justify-content: space-between; }
+  .legal .legal-item.big {
+    margin-right: 20px;
+    max-width: 623px;
+    width: 100%; }
+  .legal .legal-bigItem-title {
+    color: #000000;
+    font-family: 'Myriad Pro',sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 29px;
+    margin-bottom: 28px; }
+  .legal .legal-line {
+    background-color: #000000;
+    opacity: 0.2;
+    width: 94%;
+    height: 2px;
+    margin-bottom: 40px; }
+  .legal .legal-questions {
+    color: #0f0f0f;
+    font-family: 'Myriad Pro',sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 34px;
+    text-transform: uppercase;
+    letter-spacing: 0.35px;
+    margin-bottom: 36px;
+    cursor: pointer; }
+  .legal .legal-img-detail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; }
+  .legal .legal-img {
+    margin-right: 10px; }
+  .legal .legal-text {
+    text-decoration: none;
+    color: #454545;
+    font-family: 'Myriad Pro',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.35px;
+    line-height: 20px; }
+    .legal .legal-text:hover {
+      color: #838383;
+      letter-spacing: 0.35px;
+      text-decoration: underline;
+      cursor: pointer; }
+  .legal .legal-issues-details p {
+    color: #0f0f0f;
+    font-family: 'Myriad Pro',sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 34px;
+    text-transform: uppercase;
+    letter-spacing: 0.35px;
+    text-shadow: 0 0 1px black; }
+  .legal .choose-sign {
+    margin-left: 5px; }
+  .legal .legal-smallItem-title {
+    color: #000000;
+    font-family: 'Myriad Pro',sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 29px;
+    margin-bottom: 23px; }
+  .legal .legal-general {
+    color: #0f0f0f;
+    font-family: 'Myriad Pro',sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 34px;
+    text-transform: uppercase;
+    letter-spacing: 0.35px;
+    text-shadow: 0 0 1px black; }
+  .legal .search {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px; }
+  .legal .search-img {
+    margin-right: 10px; }
+  .legal .legal-search-info {
+    color: #454545;
+    font-family: 'Myriad Pro',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.35px;
+    text-decoration: none; }
+    .legal .legal-search-info:hover {
+      color: #838383;
+      letter-spacing: 0.35px;
+      text-decoration: underline;
+      cursor: pointer; }
+  .legal .second {
+    margin-bottom: 30px; }
+  .legal .legal-line-title {
+    color: #000000;
+    font-family: 'Myriad Pro',sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 23px;
+    line-height: 29px; }
+  .legal .legal-chevron {
+    color: #0f0f0f;
+    font-family: 'Myriad Pro',sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 34px;
+    text-transform: uppercase;
+    letter-spacing: 0.35px;
+    text-shadow: 0 0 1px black;
+    margin-bottom: 40px; }
+  .legal .legal-detail {
+    opacity: 0.49;
+    color: #0f0f0f;
+    font-family: "Myriad Pro",sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.3px; }
+  .legal .secondLine {
+    width: 100%; }
+  .legal .legal-questions span {
+    margin-left: 8px; }
+  .legal .legal-item.small {
+    flex: 1; }
+  .legal .legal-questions-links {
+    display: none; }
+
+/*legal-end*/
+/*gray*/
+.gray {
+  width: 100%;
+  margin-bottom: 64px; }
+  .gray .gray-background {
+    box-shadow: inset 1px 7px 38px 1px rgba(0, 4, 7, 0.18);
+    background-color: #e8e8e8;
+    opacity: 0.39;
+    width: 100%;
+    height: 20px; }
+
+/*gray-end*/
+/*news*/
+.news {
+  width: 100%;
+  margin-bottom: 66px; }
+  .news .news-content {
+    max-width: 1125px;
+    margin: 0 auto; }
+  .news .news-content-title p {
+    color: #000000;
+    font-family: "Myriad Pro",sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 37px;
+    text-transform: uppercase; }
+  .news .swiper-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    width: 100%;
+    margin-bottom: 40px; }
+  .news .swiper-wrapper > div {
+    width: 20%;
+    border-left: 2px solid #aaaaaa; }
+  .news .swiper-slide p {
+    padding-left: 16px; }
+  .news .news-info {
+    color: #000000;
+    font-family: "Myriad Pro",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 10px;
+    position: relative;
+    top: -8px;
+    width: 210px; }
+  .news .news-date {
+    opacity: 0.50;
+    color: #000000;
+    font-family: "Myriad Pro",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 4px;
+    position: relative;
+    bottom: -6px; }
+  .news .swiper-button-prev {
+    border: none;
+    background: none;
+    outline: none;
+    color: #b6c930;
+    top: 0;
+    left: 0;
+    z-index: 111; }
+  .news .swiper-button-next {
+    border: none;
+    background: none;
+    color: #b6c930;
+    top: 0;
+    outline: none;
+    right: 0;
+    z-index: 222; }
+  .news .swiper-button-next:after, .news .swiper-button-prev:after {
+    font-size: 24px !important; }
+
+/*news-end*/
+/*contacts-details*/
+.contacts-details {
+  width: 100%;
+  background-color: #2d2d2d; }
+  .contacts-details .contacts-content {
+    max-width: 1125px;
+    margin: 0 auto;
+    padding-top: 74px;
+    padding-bottom: 80px;
+    width: 97%; }
+  .contacts-details .contacts-wrapper {
+    display: flex;
+    justify-content: space-between; }
+  .contacts-details .contact-logo-info {
+    display: flex;
+    align-items: center;
+    margin-right: 276px; }
+  .contacts-details .contact-logo {
+    margin-right: 67px; }
+  .contacts-details .contact-info {
+    color: #ffffff;
+    font-family: "Myriad Pro",sans-serif;
+    font-size: 17.5px;
+    font-weight: 400;
+    line-height: 37px; }
+  .contacts-details .contact-info {
+    flex: 1; }
+  .contacts-details .phone-title {
+    opacity: 0.52;
+    color: #ffffff;
+    font-family: "Myriad Pro",sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 19.85px; }
+  .contacts-details .contact-phone .phone-number {
+    color: #ffffff;
+    font-family: "Myriad Pro",sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 64.07px;
+    margin-bottom: 10px; }
+  .contacts-details .contact-phone .phone-number span:first-child {
+    margin-right: 7px; }
+  .contacts-details .contact-link {
+    padding: 20.5px 35.5px;
+    background-color: #b6c930;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Myriad Pro",sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 19.85px;
+    text-transform: uppercase; }
+
+/*contacts-details-end*/
+/*main-end*/
+/*footer*/
+footer {
+  width: 100%;
+  background: black; }
+  footer .footer-content {
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 31px;
+    padding-bottom: 29px;
+    align-items: center; }
+  footer .footer-small-title {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20.36px;
+    margin-right: 10px; }
+  footer .footer-big-title {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24.07px;
+    display: contents; }
+
+/*footer-end*/
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+  width: 21px !important;
+  border-radius: 0 !important;
+  height: 4px !important; }
+
+.swiper-pagination-bullet {
+  background: #b2d8f6;
+  opacity: 1; }
+
+.swiper-pagination-bullet-active {
+  background: #e3a416; }
+
+.navigation {
+  width: 179px !important;
+  position: relative;
+  height: 15px;
+  margin: auto; }
+
+/*modal*/
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 5000;
+  padding-top: 36px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4); }
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  margin: 15px auto;
+  padding: 0;
+  max-width: 466px;
+  width: 100%;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s; }
+
+.modal-header {
+  background-color: #b2d8f6;
+  padding: 50px 78px 50px 78px; }
+
+.modal-title {
+  color: #ffffff;
+  font-family: "Myriad Pro",sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center; }
+
+.modal-body {
+  background-color: white;
+  background-image: url("../images/modal-logo.png");
+  background-position-x: center;
+  background-position-y: 4px;
+  background-repeat: no-repeat;
+  padding: 34px 68px 37px 53px;
+  text-align: center;
+  box-sizing: border-box; }
+
+.modal-inputs-container {
+  margin-bottom: 22px; }
+
+.second-modal-input {
+  margin-bottom: 41px; }
+
+.checkbox {
+  width: 18px !important;
+  height: 18px !important;
+  border: 2px solid #acacac;
+  border-radius: 2px;
+  position: relative;
+  transition: background-color 0.4s;
+  margin-right: 20px;
+  display: inline-block; }
+
+.checkbox:after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 10px;
+  border-right: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  opacity: 0;
+  transform: rotateZ(20deg) scale(2);
+  transition: all 0.4s; }
+
+#inp22:checked ~ .checkbox {
+  background-color: #e3a416;
+  border: 2px solid #e3a416; }
+
+#inp22:checked ~ .checkbox::after {
+  opacity: 1;
+  transform: rotateZ(43deg) scale(1); }
+
+.third-modal-input {
+  display: flex;
+  margin-bottom: 67px; }
+
+.modal-input-title {
+  opacity: 0.80;
+  color: #000000;
+  font-family: "Myriad Pro",sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  flex: 1; }
+
+.modal-form-text {
+  color: #000000;
+  font-family: "Myriad Pro",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  letter-spacing: 0.4px; }
+
+.modal-input-field input[type="text"] {
+  border: none;
+  width: 100%;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #acacac;
+  outline: none;
+  max-width: 201px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.79) !important;
+  font-family: "Myriad Pro",sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.35px;
+  background: none; }
+
+.modal-input-field input[type="text"]::placeholder {
+  color: #000000 !important;
+  opacity: 0.79 !important; }
+
+.modal-btn button {
+  background-color: #b6c930;
+  padding: 25px 52px 23px 51px;
+  color: #ffffff;
+  font-family: "Myriad Pro",sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 19.85px;
+  text-transform: uppercase;
+  border: none; }
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0; }
+  to {
+    top: 0;
+    opacity: 1; } }
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0; }
+  to {
+    top: 0;
+    opacity: 1; } }
+
+.modal.open {
+  display: block; }
+
+.modal-close {
+  display: none; }
+
+/*modal-end*/

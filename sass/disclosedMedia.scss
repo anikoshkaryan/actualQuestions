@@ -1,0 +1,310 @@
+@import "variables";
+@media (min-width: 1596px) and (max-width: 1680px) {
+  .organization-info{
+    background-size: 14% !important;
+  }
+  
+}
+@media (min-width: 1477px) and (max-width: 1595px) {
+  .organization-info{
+    background-size: 12% !important;
+  }
+}
+@media (max-width: 1476px) {
+  .organization-info{
+    background-image: unset!important;
+  }
+
+}
+@media (max-width: 1165px) {
+  .table-aside-container{
+    flex-wrap: wrap!important;
+  }
+  .table-container-div {
+    margin-bottom: 30px!important;
+  }
+  .organization-table{
+    width: 100%!important;
+    max-width: unset!important;
+  }
+  .organization-info aside {
+    width: 100% !important;
+   max-width: unset!important;
+  }
+  .organization-info-content{
+    width: 97%!important;
+  }
+}
+@media (max-width: 600px) {
+  .news-info{
+    width: 90%!important;
+  }
+}
+@media (min-width: 800px) and(max-width: 1100px){
+  .contacts-wrapper{
+    width: 100% !important;
+    justify-content: space-around!important;
+  }
+  .contact-logo img{
+    width: 81px!important;
+  }
+  .contact-info{
+    font-size: 14px!important;
+  }
+  .contacts-details .contact-logo-info{
+    margin: 0!important;
+  }
+}
+@media (max-width: 500px) {
+  .contact-info{
+    line-height: unset!important;
+  }
+  .contact-logo{
+    margin-bottom: 22px!important;
+  }
+  .contact-info p {
+    margin-bottom: 10px!important;
+  }
+  .contact-link{
+    font-size: 13px!important;
+    margin: auto!important;
+  }
+  .modal-header {
+    padding: 50px 0!important;
+  }
+  .modal{
+    padding-top: 0!important;
+  }
+  .modal-content{
+    margin: 0!important;
+  }
+  .modal-btn button {
+    padding: 25px 0 23px 0!important;
+    max-width: 271px!important;
+    width: 100% !important;
+  }
+  .modal-close{
+    display: block!important;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 30px;
+  }
+
+  .top-content .box{
+    width: 80% !important;
+  }
+  .organization-table td {
+    padding: 14px 6px 14px 11px!important;
+  }
+  aside {
+    padding: 0 10px!important;
+  }
+  .aside-title{
+    text-align: center!important;
+    margin-bottom: 20px!important;
+  }
+  .aside-desc{
+    flex-wrap: wrap!important;
+    text-align: center!important;
+  }
+  .aside-search {
+    margin: 0 auto!important;
+    margin-bottom: 10px!important;
+  }
+  .organization-big-title{
+    text-align: center!important;
+  }
+  .organization-small-title{
+    text-align: center!important;
+    width: 100%!important;
+  }
+  .organization-table-title{
+    text-align: center!important;
+  }
+  .disclose-standardText ul li {
+    margin-bottom: 20px!important;
+    display: flex!important;
+  }
+  .disclose-standardText li a{
+    line-height: unset!important;
+  }
+  .disclose-standardText ul li:before{
+     width: unset!important;
+     height: unset!important;
+    display: block!important;
+
+  }
+  .disclose-standardText {
+    padding: 0 10px!important;
+  }
+  .disclose-standardInfo-item {
+    padding: 27px 8px 24px 8px!important;
+    text-align: center!important;
+  }
+  .disclose-info-text {
+    font-size: 15px!important;
+    line-height: 23px!important;
+    text-align: center!important;
+  }
+  .disclose-info-big-title {
+    font-size: 30px!important;
+    margin-bottom: 50px!important;
+    text-align: center!important;
+  }
+  .disclose-info-small-title {
+    line-height: 25px!important;
+    text-align: center!important;
+  }
+  .top {
+    margin-bottom: 30px!important;
+  }
+  .news-content-title p{
+    text-align: center!important;
+  }
+}
+@media (min-width: 320px) and (max-width: 800px) {
+  .contacts-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 95%!important;
+  }
+  .contacts-wrapper{
+    flex-direction: column!important;
+    justify-content: center!important;
+  }
+  .contact-logo{
+    margin-right: 0!important;
+    text-align: center!important;
+  }
+  .contact-logo-info{
+    margin-right: 0!important;
+    display: flex;
+    flex-direction: column!important;
+    align-items: initial!important;
+  }
+  .contact-phone .phone-number span {
+    display: flex!important;
+    flex-wrap: wrap!important;
+    line-height: 30px!important;
+
+  }
+  .contact-phone .phone-number{
+    margin-bottom: 30px!important;
+    line-height: unset!important;
+  }
+  .contact-phone .phone-title{
+    line-height: 37px!important;
+  }
+}
+@media (min-width: 700px) and (max-width: 900px){
+  .top-content .box{
+    height: 100px;
+  }
+  .top-content img{
+    height: 100% !important;
+    width: 65px!important;
+  }
+}
+@media (max-width: 700px){
+  .top-content .box{
+    max-width: unset !important;
+    width: 57% !important;
+    margin-bottom: 30px;
+
+    height: 100px;
+  }
+
+  .top-content{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .top-content img{
+    //height: 100% !important;
+    //width: unset!important;
+    width: 64px!important;
+    height: 100%!important;
+  }
+
+  .image-wrapp{
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+@media (min-width: 490px)  and (max-width: 670px){
+  .phone-nav a{
+    font-size: 22px!important;
+  }
+  .phone-nav li {
+    padding: 3px!important;
+  }
+}
+@media (min-width: 320px) and (max-width: 490px){
+  .phone-nav a{
+    font-size: 19px !important;
+  }
+  .phone-nav li {
+    padding: 3px!important;
+  }
+}
+@media (min-width: 700px) and (max-width: 1100px){
+  .news-content{
+    width: 92%!important;
+  }
+}
+@media (min-width: 538px) and (max-width: 700px){
+  .news-content{
+    width: 85%!important;
+  }
+
+
+}
+@media (min-width: 320px) and (max-width: 537px){
+  .news-content{
+    width: 80%!important;
+  }
+}
+@media (min-width: 320px) and (max-width: 1100px){
+  .hamburger-menu{
+    display: block!important;
+  }
+  .desktop-nav{
+    display: none!important;
+  }
+  .phone-info{
+    display: none!important;
+  }
+  .phone-nav {
+    margin-bottom:20px;
+    li {
+      list-style: none;
+      padding: 8px;
+    }
+    a{
+      text-decoration: none;
+      font-weight: 400;
+      color: $black;
+      font-family: 'Myriad Pro',sans-serif;
+      font-size: 28px;
+      text-transform: uppercase;
+    }
+  }
+  .mobile-info .phone{
+    margin-bottom: 14px;
+    color: $gray;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 10.08px;
+  }
+  .header-container{
+    width: 80%!important;
+    margin: 0 auto!important;
+  }
+
+
+
+}

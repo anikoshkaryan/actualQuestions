@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/5f154fe9c3.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../swiper/swiper.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="icon" href="../images/logo.png">
+    <title>Главная</title>
+</head>
+<body>
+<div class="main-wrapper">
+    <header>
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="../images/logo.png" alt="">
+            </div>
+                <nav class="desktop-nav">
+                    <ul class="main-nav">
+                        <li><a href="">Рекомендации для собственников жилья</a></li>
+                        <li><a href="">Информация подлежащая раскрытию</a></li>
+                        <li><a href="">Законодательство</a></li>
+                    </ul>
+
+                </nav>
+                <div class="phone-info">
+                    <p class="phone">Телефоны для связи</p>
+                    <p class="phone-number">26-20-20</p>
+                    <p class="phone-number">59-42-20</p>
+                </div>
+            <div class="hamburger-menu">
+            <span class="hamburger-menu-line"></span>
+            <span class="hamburger-menu-line"></span>
+            <span class="hamburger-menu-line"></span>
+        </div>
+            <div class="mobile-version">
+                    <nav class="phone-nav">
+                        <ul class="mobile-nav">
+                            <li><a href="">Рекомендации для собственников жилья</a></li>
+                            <li><a href="">Информация подлежащая раскрытию</a></li>
+                            <li><a href="">Законодательство</a></li>
+                        </ul>
+
+                    </nav>
+
+                <div class="mobile-info">
+                    <p class="phone">Телефоны для связи</p>
+                    <p class="phone-number">26-20-20</p>
+                    <p class="phone-number">59-42-20</p>
+                </div>
+                <i class="material-icons mobile-close">close</i>
+
+            </div>
+        </div>
+
+
+    </header>
+    <main>
+        <section class="top">
+            <div class="top-content">
+                <div class="orange-online box">
+                    <a href="service.html" class="online-services">Онлайн услуги</a>
+                    <span class="online-image image-wrapp">
+                        <img src="../images/orange-detail.png" alt="">
+                    </span>
+                </div>
+                <div class="blue-contacts box">
+                    <a href="onlineContacts.html" class="contacts">Контакты</a>
+                    <span class="contacts-image image-wrapp">
+                        <img src="../images/blue-detail.png" alt="">
+                    </span>
+                </div>
+                <div class="green-application box">
+                    <span class="application">Оставить заявку</span>
+                    <span class="application-image image-wrapp">
+                        <img src="../images/green-detail.png" alt="">
+                    </span>
+                </div>
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Аварийно-диспетчерская служба</h4>
+                            <i class="material-icons modal-close">close</i>
+                        </div>
+                        <div class="modal-body">
+                            <form action="" id="modal-form">
+                                <div class="modal-inputs-container">
+                                    <p class="modal-form-text">Ваше имя</p>
+                                    <div class="modal-input-field">
+                                        <label>
+                                            <input type="text" name="name" placeholder="Александр">
+                                        </label>
+                                    </div>
+                                </div>
+                               <div class="modal-inputs-container second-modal-input">
+                                   <p class="modal-form-text">Ваш номер телефона</p>
+                                   <div class="modal-input-field">
+                                       <label>
+                                           <input type="text" name="phoneNumber" placeholder="+7 (999) 999-99-99">
+                                       </label>
+                                   </div>
+                               </div>
+                                <div class="modal-inputs-container third-modal-input">
+                                    <input type="checkbox"  id="inp22" hidden  name="agree">
+                                    <label for="inp22" class="checkbox">
+                                    </label>
+                                    <span class="modal-input-title">Я ознакомлен с правилами обработки данных</span>
+                                </div>
+                                <div class="modal-btn">
+                                    <button>отправить заявку</button>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="topical-issues">
+            <div class="topical-wrapper">
+                <div class="topical-issues-title">
+                    <p>Актуальные вопросы</p>
+                </div>
+                <form action="" id="container" >
+                <div class="topical-content">
+                    <div class="interesting-question-content">
+                        <div class="interesting-questions">
+                            <p class="interesting-questions-title"><span class="interesting-num">1</span>Выберите
+                                интересующий
+                                вопрос</p>
+                        </div>
+                        <div class="interesting-line"></div>
+                        <div class="interesting-variants">
+                            <div class="interest-item bu" data-id="open1-form" >
+                               Услуги <br>
+                                    и ремонт
+                            </div>
+                            <div class="interest-item" data-id="open2-form">
+                                    вопросы <br>
+                                    по расчетам
+                            </div>
+                            <div class="interest-item" data-id="open3-form">
+                                    Паспортный <br>
+                                    стол
+                            </div>
+                            <div class="interest-item" data-id="open4-form">
+                                    Другие <br>
+                                    вопросы
+                            </div>
+                        </div>
+                        <div class="form-container open1-form active-form">
+                            <div>
+                                <input type="checkbox" class="book" id="inp1" hidden  name="book">
+                                <label for="inp1" class="checkMark">
+                                </label>
+                                <span class="input-title">Выписка из домовой книги</span>
+                            </div>
+                            <div>
+                               <input type="checkbox" id="inp2" hidden name="document">
+                               <label for="inp2" class="checkMark2">
+                               </label>
+                               <span class="input-title"> Выдача документов для постановки на воинский учет</span>
+                           </div>
+                            <div>
+                              <input type="checkbox" id="inp3" hidden name="passport">
+                              <label for="inp3" class="checkMark3">
+                              </label>
+                           <span class="input-title">Оформление документов для выдачи и замены паспорта гражданина РФ</span>
+                          </div>
+                            <div>
+                                <input type="checkbox" id="inp4" hidden name="register">
+                                <label for="inp4" class="checkMark4">
+                                </label>
+                                <span class="input-title"> Регистрация и снятие с регистрационного учета</span>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="inp5" hidden name="help">
+                                <label for="inp5" class="checkMark5">
+                                </label>
+                                <span class="input-title"> Справка для вступления в права наследования</span>
+                            </div>
+                           <div>
+                               <input type="checkbox" id="inp6" hidden name="family">
+                               <label for="inp6" class="checkMark6">
+                               </label>
+                               <span class="input-title">Справка о составе семьи, о месте жительства </span>
+                           </div>
+                            <div>
+                                <input type="checkbox" id="inp7"  hidden name="register-app">
+                                <label for="inp7" class="checkMark7">
+                                </label>
+                                <span class="input-title"> Прием заявлений для регистрации по месту пребывания и снятия с учета</span>
+                            </div>
+                        </div>
+                        <div class="form-container open2-form"   >
+                            <div>
+                                <input type="checkbox" class="book" id="inp8" hidden  name="book">
+                                <label for="inp8" class="checkMark">
+                                </label>
+                                <span class="input-title">Выписка из домовой книги</span>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="inp9" hidden name="document">
+                                <label for="inp9" class="checkMark2">
+                                </label>
+                                <span class="input-title"> Выдача документов для постановки на воинский учет</span>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="inp10" hidden name="passport">
+                                <label for="inp10" class="checkMark3">
+                                </label>
+                                <span class="input-title">Оформление документов для выдачи и замены паспорта гражданина РФ</span>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="inp11" hidden name="register">
+                                <label for="inp11" class="checkMark4">
+                                </label>
+                                <span class="input-title"> Регистрация и снятие с регистрационного учета</span>
+                            </div>
+                        </div>
+                        <div class="form-container open3-form">
+                            <div>
+                                <input type="checkbox" class="book" id="inp12" hidden  name="book">
+                                <label for="inp12" class="checkMark">
+                                </label>
+                                <span class="input-title">Выписка из домовой книги</span>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="inp13" hidden name="document">
+                                <label for="inp13" class="checkMark2">
+                                </label>
+                                <span class="input-title"> Выдача документов для постановки на воинский учет</span>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="inp14" hidden name="passport">
+                                <label for="inp14" class="checkMark3">
+                                </label>
+                                <span class="input-title">Оформление документов для выдачи и замены паспорта гражданина РФ</span>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="inp15" hidden name="register">
+                                <label for="inp15" class="checkMark4">
+                                </label>
+                                <span class="input-title"> Регистрация и снятие с регистрационного учета</span>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="inp16" hidden name="help">
+                                <label for="inp16" class="checkMark5">
+                                </label>
+                                <span class="input-title"> Справка для вступления в права наследования</span>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="inp17" hidden name="family">
+                                <label for="inp17" class="checkMark6">
+                                </label>
+                                <span class="input-title">Справка о составе семьи, о месте жительства </span>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="inp18"  hidden name="register-app">
+                                <label for="inp18" class="checkMark7">
+                                </label>
+                                <span class="input-title"> Прием заявлений для регистрации по месту пребывания и снятия с учета</span>
+                            </div>
+                        </div>
+                        <div class="form-container open4-form">
+                            <div>
+                                <input type="checkbox" class="book" id="inp19" hidden  name="book">
+                                <label for="inp19" class="checkMark">
+                                </label>
+                                <span class="input-title">Выписка из домовой книги</span>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="inp20" hidden name="document">
+                                <label for="inp20" class="checkMark2">
+                                </label>
+                                <span class="input-title"> Выдача документов для постановки на воинский учет</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="address-content">
+                        <div class="address">
+                            <p class="address-title">
+                                <span class="address-num">2</span> Введите адрес вашего дома
+                            </p>
+                        </div>
+                        <div class="address-line"></div>
+                        <div class="address-details" >
+                            <form action="" id="address-details">
+                                <div class="input-container">
+                                    <p class="address-info">Город</p>
+                                    <div class="input-field1 input-field">
+                                        <label>
+                                            <input type="text" placeholder="Ярославль" class="address-city" id="city">
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="input-container">
+                                    <p class="address-info">Улица</p>
+                                    <div class="input-field2 input-field">
+                                        <label>
+                                            <input type="text" placeholder="Архангельская" class="address-city" id="street">
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="input-container">
+                                    <p class="address-info">Строение</p>
+                                    <div class="input-field3 input-field">
+                                        <label>
+                                            <input type="text" placeholder="25А" class="address-city" id="building">
+                                        </label>
+                                    </div>
+                                </div>
+                </form>
+                        </div>
+                        <div class="information">
+                            <p>
+                                ЧТОБЫ УЗНАТЬ КОНТАКТНЫЕ ДАННЫЕ ЛИНЕЙНОГО УЧАСТКА
+                                ВЫБЕРИТЕ ИНТЕРЕСУЮЩУЮ КАТЕГОРИЮ ВОПРОСОВ И
+                                НАБЕРИТЕ АДРЕС СВОЕГО ДОМА
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </section>
+        <section class="request">
+            <div class="request-line">
+                <div class="request-child"></div>
+            </div>
+            <div class="request-content">
+                <div class="request-info">
+                    <div class="request-info-title">
+                        <p><span class="request-gray">Итог по запросу:</span>“Паспортный отдел”</p>
+                    </div>
+                    <div>
+                        <p class="request-info-detail-gray">Адрес организации</p>
+                        <p class="request-details">ул. Богдановича, д.22 (1 этаж, вход с торца здания с противоположной
+                            <br>
+                            стороны ул.Богдановича)</p>
+
+                    </div>
+                    <div>
+                        <p class="request-info-detail-gray">Телефон</p>
+                        <p class="request-details">59-40-83</p>
+                    </div>
+                    <div>
+                        <p class="request-info-detail-gray">График работы</p>
+                        <p class="request-details">Понедельник, суббота: с 9-00 до 15-00, перерыв с 12-00 до 13-00.</p>
+                        <p class="request-details">Вторник, среда: с 11-00 до 19-00, перерыв с 14-00 до 16-00.</p>
+                    </div>
+                    <div>
+                        <p class="request-info-detail-gray">Как добраться</p>
+                        <p class="request-details">Автобусы: 3, 9, 11, 30, 55, 93г, 121а. Троллейбусы: 3. Маршрутные
+                            такси: 38, 85Д, 85К.</p>
+                    </div>
+                </div>
+                <div class="request-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d273249.6592095929!2d39.584336290244714!3d57.65251627016907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b291a051ecb939%3A0x59c9e61644948545!2z0K_RgNC-0YHQu9Cw0LLQu9GMLCDQr9GA0L7RgdC70LDQstGB0LrQsNGPINC-0LHQuy4sINCg0L7RgdGB0LjRjw!5e0!3m2!1sru!2s!4v1597836155421!5m2!1sru!2s" height="300" frameborder="0" style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+
+        </section>
+        <section class="news">
+            <div class="news-content swiper-container">
+                <div class="news-content-title">
+                    <p>Новости</p>
+                </div>
+                <div class="news-wrapper swiper-wrapper">
+                    <div class="swiper-slide">
+                        <p class="news-info">Жители дома в Ярославле почти год ждут перевода
+                            денег от фонда капремонта</p>
+                        <p class="news-date">
+                            05 июня 2020
+                        </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p class="news-info">Жители дома в Ярославле почти год ждут перевода
+                            денег от фонда капремонта</p>
+                        <p class="news-date">
+                            05 июня 2020
+                        </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p class="news-info">Жители дома в Ярославле почти год ждут перевода
+                            денег от фонда капремонта</p>
+                        <p class="news-date">
+                            05 июня 2020
+                        </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p class="news-info">Жители дома в Ярославле почти год ждут перевода
+                            денег от фонда капремонта</p>
+                        <p class="news-date">
+                            05 июня 2020
+                        </p>
+                    </div>
+                </div>
+                <div class="navigation">
+                    <button class="swiper-button-prev">
+
+                    </button>
+                    <button class="swiper-button-next">
+
+                    </button>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </section>
+        <section class="contacts-details">
+            <div class="contacts-content">
+                <div class="contacts-wrapper">
+                    <div class="contact-logo-info">
+                        <div class="contact-logo">
+                            <img src="../images/логотипы_и_фирменный_стиль.png" alt="">
+                        </div>
+                        <div class="contact-info">
+                            <p>Рекомендации для собственников жилья</p>
+                            <p>Информация подлежащая раскрытию </p>
+                            <p>Законодательство</p>
+                            <p>Контакты</p>
+                        </div>
+                    </div>
+                    <div class="contact-phone">
+                        <p class="phone-title">
+                            Телефоны для связи
+                        </p>
+                        <p class="phone-number">
+                            <span>26-20-20,</span><span>59-42-20</span>
+                        </p>
+                        <a href="#" class="contact-link">универсальный мастер</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p class="footer-small-title">Разработка сайта</p>
+            <p class="footer-big-title"><span class="footer-big-letter"><img src="../images/Лого_Грампус_G_3.png" alt=""></span>rampus</p>
+        </div>
+    </footer>
+</div>
+<script src="../jquery.validate.min.js">
+</script>
+<script src="../swiper/swiper.min.js"></script>
+<script src="../js/main.js">
+</script>
+</body>
+</html>
